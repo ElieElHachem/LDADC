@@ -73,7 +73,7 @@ Microbiota
 
 
 Microbiota contain three folders:
-1. **Cytometry_data** folder contain one script to make the analysis of the patients Multiple_run_with_network.py using cytometry data, and performing network stratification based on the number of topic. function_for_microbiota_analysis.py contain all the functions for the analysis and Notebook_adjusting_network_threshold.ipynb is a jupyter notebook to adjust the network.
+1. **Cytometry_data** folder contain one script to make the analysis of the patients Multiple_run_with_network.py using cytometry data, and performing network stratification based on the number of topic. Functions_for_analysis.py.py contain all the functions for the analysis and Notebook_adjusting_network_threshold.ipynb is a jupyter notebook to adjust the network.
 2. **GENUS_word_exploration** is a folder with LDA_on_GENUS_with_normed_phi.py script and function allowing us to inspect words (i.e bacteria) involved in the prediction.
 3. **Genus_LDA** contain LDA_on_GENUS.py allowing us to perform network stratification based on the number of topics using genus data. Its also contain Network_analysis.ipynb (a jupyter notebook) to adjust the network.
 
