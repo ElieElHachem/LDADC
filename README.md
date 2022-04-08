@@ -63,7 +63,7 @@ Microbiota
 ├── Cytometry_data
 │   ├── Multiple_run_with_network.py
 │   ├── Notebook_adjusting_network_threshold.ipynb
-│   └── function_for_microbiota_analysis.py
+│   └── Functions_for_analysis.py
 ├── GENUS_word_exploration
 │   └── LDA_on_GENUS_with_normed_phi.py
 └── Genus_LDA
