@@ -12,7 +12,7 @@ from itertools import combinations_with_replacement
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score
 np.random.seed(5)
-from function_for_microbiota_analysis import binatodeci,storage_position,kmeans_reattached_patient_microbiota,LDA_function_makeblop_form,relabel_matrix
+from Functions_for_analysis import binatodeci,storage_position,kmeans_reattached_patient_microbiota,LDA_function_makeblop_form,relabel_matrix
 start_time = time.monotonic()
 LE = LabelEncoder()
 
