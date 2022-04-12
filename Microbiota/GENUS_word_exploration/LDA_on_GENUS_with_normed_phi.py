@@ -231,10 +231,10 @@ if __name__ == '__main__':
 
 
     information_frame = pd.read_csv('~/FlowRepository_FR-FCM-ZYVH_files/attachments/Metadata_DC.csv')
-    list_of_object = (information_frame.loc[information_frame['Health status'] == 'Healthy']).sample(n = sample_of_normal)['Individual'].to_list() + information_frame.loc[information_frame['Health status'] == 'CD']['Individual'].to_list()
+    #list_of_object = (information_frame.loc[information_frame['Health status'] == 'Healthy']).sample(n = sample_of_normal)['Individual'].to_list() + information_frame.loc[information_frame['Health status'] == 'CD']['Individual'].to_list()
     genus_table = pd.read_table('~/FlowRepository_FR-FCM-ZYVH_files/attachments/GenusAbundance_DiseaseCohort_nature24460.txt', index_col=0, header=0)
     genus_comp = genus_table.div(genus_table.sum(axis=1), axis=0)
-    genus_com_selected = genus_table.loc[list_of_object]
+    #genus_com_selected = genus_table.loc[list_of_object]
     genus_com_selected = genus_comp.copy()
     series,patients = patient_genus_cell(dataframe=genus_com_selected,number_of_cell_to_sample=k)
 
